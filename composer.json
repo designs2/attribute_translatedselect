@@ -1,5 +1,5 @@
 {
-	"name":"metamodels/attribute_translatedselect",
+	"name":"designs2/attribute_translatedselect",
 	"description":"MetaModels attribute for translated selects",
 	"keywords":["contao", "metamodels", "attribute", "select", "translatable"],
 	"type":"contao-module",
@@ -35,14 +35,14 @@
 		"issues":"https://github.com/MetaModels/attribute_translatedselect/issues",
 		"wiki":"http://de.contaowiki.org/MetaModels",
 		"irc":"irc://irc.freenode.org/contao.mm",
-		"source":"https://github.com/MetaModels/attribute_translatedselect"
+		"source":"https://github.com/designs2/attribute_translatedselect"
 	},
 	"require":{
         "php":">=5.3",
         "contao/core":"~2.11",
         "contao-community-alliance/composer-installer": "*",
-        "metamodels/core":"~1",
-        "metamodels/attribute_select":"*"
+        "designs2/core":"*",
+        "designs2/attribute_select":"*"
 	},
     "require-dev": {
         "metamodels/php-coding-standard":"dev-master",
